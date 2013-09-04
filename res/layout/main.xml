@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	android:id="@+id/widget32"
+	android:background="@drawable/bg"   
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	xmlns:android="http://schemas.android.com/apk/res/android">
+<Button
+	android:id="@+id/widget69"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="login"
+	android:layout_alignTop="@+id/widget68"
+	android:layout_alignParentRight="true" />
+<Button
+	android:id="@+id/widget68"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="register"
+	android:layout_below="@+id/widget41"
+	android:layout_alignParentLeft="true" />
+<TableLayout
+	android:id="@+id/widget41"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:stretchColumns="1"
+	android:layout_alignParentTop="true"
+	android:layout_alignParentLeft="true">
+<TableRow
+	android:id="@+id/widget42"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+<TextView
+	android:id="@+id/widget51"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="username" />
+<EditText
+	android:id="@+id/widget65"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="EditText"
+	android:textSize="18sp" />
+</TableRow>
+<TableRow
+	android:id="@+id/widget43"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="horizontal">
+<TextView
+	android:id="@+id/widget58"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="password" />
+<EditText
+	android:id="@+id/widget67"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:text="EditText"
+	android:textSize="18sp"
+	android:password="true" />
+</TableRow>
+</TableLayout>
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="60dp"
+    android:layout_toLeftOf="@+id/widget69"
+    android:text="go" />
+
+</RelativeLayout>
